@@ -1,0 +1,69 @@
+<OTA_VehAvailRateRS TimeStamp="2018-04-30T20:07:12.1533033+10:00" Version="4.500" xmlns="http://www.opentravel.org/OTA/2003/05" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Success/>
+  <VehAvailRSCore>
+    <VehRentalCore PickUpDateTime="2018-05-10T09:00:00" ReturnDateTime="2018-05-17T09:00:00" Quantity="8">
+      <PickUpLocation LocationCode="BNE">Brisbane</PickUpLocation>
+      <ReturnLocation LocationCode="BNE">Brisbane</ReturnLocation>
+    </VehRentalCore>
+    <VehVendorAvails>
+      <VehVendorAvail>
+        <Vendor Code="APAU" CodeContext="VibeVendor">Apollo Australia</Vendor>
+        <VehAvails>
+          <VehAvail>
+            <VehAvailCore Status="Available">
+              <Vehicle PassengerQuantity="2" VendorCarType="AU4WDADV" Code="4WDADV">
+                <VehType VehicleCategory="10"/>
+                <VehClass Size="4"/>
+                <VehMakeModel Name="Apollo 4WD Adventure Camper" Code="AU4WDADV"/>
+                <PictureURL>http://www.apollocamper.com/campervan-hire-popupadv.aspx</PictureURL>
+              </Vehicle>
+              <RentalRate>
+                <RateDistance Unlimited="false" Quantity="300" DistUnitName="Km" VehiclePeriodUnitName="Day"/>
+                <VehicleCharges>
+                  <VehicleCharge Amount="1488" CurrencyCode="AUD" TaxInclusive="true" Description="Apollo 4WD Adventure Camper" GuaranteedInd="true" Purpose="1">
+                    <Calculation UnitCharge="186" UnitName="Day" Quantity="7"/>
+                    <Calculation UnitCharge="186" UnitName="Day" Quantity="1"/>
+                  </VehicleCharge>
+                  <VehicleCharge TaxInclusive="true" Description="Kilometres" Purpose="8">
+                    <Calculation UnitName="Km"/>
+                  </VehicleCharge>
+                </VehicleCharges>
+                <RateQualifier RateQualifier="APAUFLX">
+                  <PromoDesc>Apollo Flx</PromoDesc>
+                </RateQualifier>
+              </RentalRate>
+              <TotalCharge RateTotalAmount="1488" EstimatedTotalAmount="1488" CurrencyCode="AUD"/>
+              <Reference Type="41" ID="7d4ed3526d164e6fac473089554304cb" DateTime="2018-04-30T10:07:16.3185033Z"/>
+              <VendorLocation LocationCode="BNE" ExtendedLocationCode="BNE">Brisbane</VendorLocation>
+              <DropOffLocation LocationCode="BNE" ExtendedLocationCode="BNE">Brisbane</DropOffLocation>
+            </VehAvailCore>
+            <VehAvailInfo>
+              <PricedCoverages>
+                <PricedCoverage Required="true">
+                  <Coverage CoverageType="10" Code="LR0"/>
+                  <Charge TaxInclusive="true" Description="Standard Liability">
+                    <Calculation UnitName="Day" Quantity="8"/>
+                  </Charge>
+                  <Deductible Amount="8000" CurrencyCode="AUD"/>
+                </PricedCoverage>
+              </PricedCoverages>
+            </VehAvailInfo>
+          </VehAvail>
+        </VehAvails>
+        <Info>
+          <LocationDetails Code="BNE" Name="Brisbane" ExtendedLocationCode="BNE" AssocAirportLocList="BNE">
+            <Address UseType="1">
+              <AddressLine>733A Nudgee Road</AddressLine>
+              <AddressLine>Northgate</AddressLine>
+              <CityName>Brisbane</CityName>
+              <PostalCode>4013</PostalCode>
+              <CountryName Code="AU">Australia</CountryName>
+            </Address>
+            <Telephone PhoneTechType="1" PhoneNumber="6173265 9240"/>
+          </LocationDetails>
+        </Info>
+      </VehVendorAvail>
+    </VehVendorAvails>
+  </VehAvailRSCore>
+  <VehAvailRSInfo/>
+</OTA_VehAvailRateRS>

@@ -1,0 +1,487 @@
+<xml-fragment SequenceNmbr="1" Target="Production" Version="1.0" xsi:schemaLocation="http://www.opentravel.org/OTA/2008/05 OTA_VehAvailRateRS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://www.opentravel.org/OTA/2003/05">
+  <ns:Success/>
+  <ns:VehAvailRSCore>
+    <ns:VehRentalCore PickUpDateTime="2018-05-10T09:00:00" ReturnDateTime="2018-05-17T09:00:00">
+      <ns:PickUpLocation CodeContext="IATA" LocationCode="BNE"/>
+      <ns:ReturnLocation CodeContext="IATA" LocationCode="BNE"/>
+    </ns:VehRentalCore>
+    <ns:VehVendorAvails>
+      <ns:VehVendorAvail>
+        <ns:Vendor>Budget</ns:Vendor>
+        <ns:VehAvails>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType VehicleCategory="1"/>
+                <ns:VehClass Size="4"/>
+                <ns:VehMakeModel Code="CCAR" Name="Group B - Kia Rio or similar"/>
+                <ns:PictureURL>2017-kia-rio-5-door-lx-hatchback-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="99.60" CurrencyCode="AUD" Description="Minimum 5 Day(s) rental; Maximum 7 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="88.13"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="36.28" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="6.35" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7W"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="187.73" RateTotalAmount="99.60"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType VehicleCategory="1"/>
+                <ns:VehClass Size="6"/>
+                <ns:VehMakeModel Code="ICAR" Name="Group C - Toyota Corolla 1.8 or similar"/>
+                <ns:PictureURL>2017-toyota-corolla-im-cvt-automatic-hatchback-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="113.31" CurrencyCode="AUD" Description="Minimum 7 Day(s) rental; Maximum 28 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="92.15"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="39.70" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="6.95" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7X"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="205.46" RateTotalAmount="113.31"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType VehicleCategory="1"/>
+                <ns:VehClass Size="7"/>
+                <ns:VehMakeModel Code="SCAR" Name="Group D - Hyundai Elantra or similar"/>
+                <ns:PictureURL>2017-hyundai-elantra-se-sedan-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="120.33" CurrencyCode="AUD" Description="Minimum 7 Day(s) rental; Maximum 28 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="94.22"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="41.46" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="7.26" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7X"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="214.55" RateTotalAmount="120.33"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType VehicleCategory="1"/>
+                <ns:VehClass Size="8"/>
+                <ns:VehMakeModel Code="FCAR" Name="Group E - Toyota Camry or similar"/>
+                <ns:PictureURL>2016-toyota-camry-se-sedan-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="170.11" CurrencyCode="AUD" Description="Minimum 5 Day(s) rental; Maximum 7 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="108.83"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="53.90" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="9.43" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7W"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="278.94" RateTotalAmount="170.11"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType VehicleCategory="3"/>
+                <ns:VehClass Size="4"/>
+                <ns:VehMakeModel Code="CFAR" Name="Group S - Mitsubishi ASX or similar"/>
+                <ns:PictureURL>2017-mitsubishi-asx-instyle-suv-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="168.52" CurrencyCode="AUD" Description="Minimum 7 Day(s) rental; Maximum 28 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="108.37"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="53.51" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="9.36" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7X"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="276.89" RateTotalAmount="168.52"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType DoorCount="4" VehicleCategory="1"/>
+                <ns:VehClass Size="38"/>
+                <ns:VehMakeModel Code="GDAR" Name="Group P - Holden SV6 or similar"/>
+                <ns:PictureURL>2017-holden-commodore-sv6-heron-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="198.13" CurrencyCode="AUD" Description="Minimum 5 Day(s) rental; Maximum 7 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="117.07"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="60.91" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="10.66" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7W"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="315.20" RateTotalAmount="198.13"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType VehicleCategory="3"/>
+                <ns:VehClass Size="8"/>
+                <ns:VehMakeModel Code="FFAR" Name="Group H - Toyota Kluger or similar"/>
+                <ns:PictureURL>2017-toyota-kluger-grande-suv-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Quantity="1400" Unlimited="false" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="680.55" CurrencyCode="AUD" Description="Minimum 7 Day(s) rental; Maximum 28 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="258.77"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="0.25" CurrencyCode="AUD" Description="Additional Distance Charge" GuaranteedInd="false" IncludedInRate="false" Purpose="8" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="181.51" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="31.76" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7X"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="939.32" RateTotalAmount="680.55"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" FuelType="Hybrid" TransmissionType="Automatic">
+                <ns:VehType DoorCount="4" VehicleCategory="1"/>
+                <ns:VehClass Size="8"/>
+                <ns:VehMakeModel Code="FDAH" Name="Group L - Toyota Camry Hybrid or similar"/>
+                <ns:PictureURL>2016-toyota-camry-se-hybrid-sedan-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="175.02" CurrencyCode="AUD" Description="Minimum 5 Day(s) rental; Maximum 7 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="110.28"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="55.13" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="9.65" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7W"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="285.30" RateTotalAmount="175.02"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType VehicleCategory="3"/>
+                <ns:VehClass Size="6"/>
+                <ns:VehMakeModel Code="IFAR" Name="Group K - Toyota RAV4 or similar"/>
+                <ns:PictureURL>2017-toyota-rav4-limited-4wd-suv-silver.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="175.14" CurrencyCode="AUD" Description="Minimum 7 Day(s) rental; Maximum 28 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="110.31"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="55.16" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="9.65" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7X"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="285.45" RateTotalAmount="175.14"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType VehicleCategory="3"/>
+                <ns:VehClass Size="10"/>
+                <ns:VehMakeModel Code="PFAR" Name="Group W - Mitsubishi Pajero Sport or similar"/>
+                <ns:PictureURL>2012-mitsubishi-pajero-sport-suv-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Quantity="1400" Unlimited="false" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="729.74" CurrencyCode="AUD" Description="Minimum 7 Day(s) rental; Maximum 28 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="273.23"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="0.25" CurrencyCode="AUD" Description="Additional Distance Charge" GuaranteedInd="false" IncludedInRate="false" Purpose="8" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="193.81" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="33.92" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7X"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="1002.97" RateTotalAmount="729.74"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType VehicleCategory="2"/>
+                <ns:VehClass Size="8"/>
+                <ns:VehMakeModel Code="FVAR" Name="Group V - Kia Carnival or similar"/>
+                <ns:PictureURL>2015-kia-carnival-minivan-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="747.00" CurrencyCode="AUD" Description="Minimum 7 Day(s) rental; Maximum 28 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="278.30"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="198.13" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="34.67" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7X"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="1025.30" RateTotalAmount="747.00"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+          <ns:VehAvail>
+            <ns:VehAvailCore Status="Available">
+              <ns:Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                <ns:VehType VehicleCategory="8"/>
+                <ns:VehClass Size="8"/>
+                <ns:VehMakeModel Code="FWAR" Name="Group F - Holden SV6 Wagon or similar"/>
+                <ns:PictureURL>2016-holden-vfii-station-wagon-black-sv6-heron-white.png</ns:PictureURL>
+              </ns:Vehicle>
+              <ns:RentalRate>
+                <ns:RateDistance DistUnitName="Km" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                <ns:VehicleCharges>
+                  <ns:VehicleCharge Amount="199.73" CurrencyCode="AUD" Description="Minimum 7 Day(s) rental; Maximum 28 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                    <ns:TaxAmounts>
+                      <ns:TaxAmount CurrencyCode="AUD" Description="Taxes and surcharges" Total="117.54"/>
+                    </ns:TaxAmounts>
+                    <ns:Calculation Quantity="7" UnitName="Day"/>
+                  </ns:VehicleCharge>
+                  <ns:VehicleCharge Amount="45.50" CurrencyCode="AUD" Description="Airport/City/Other Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="5" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="61.31" CurrencyCode="AUD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                  <ns:VehicleCharge Amount="10.73" CurrencyCode="AUD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                </ns:VehicleCharges>
+                <ns:RateQualifier CorpDiscountNmbr="E102900" RateCategory="3" RateQualifier="7X"/>
+              </ns:RentalRate>
+              <ns:TotalCharge CurrencyCode="AUD" EstimatedTotalAmount="317.27" RateTotalAmount="199.73"/>
+            </ns:VehAvailCore>
+            <ns:VehAvailInfo>
+              <ns:PricedCoverages>
+                <ns:PricedCoverage>
+                  <ns:Coverage Code="CDW" CoverageType="7">
+                    <ns:Details CoverageTextType="Description">Collision Damage Waiver (CDW)</ns:Details>
+                  </ns:Coverage>
+                  <ns:Charge Amount="0.00" CurrencyCode="AUD" Description="Coverage costs are quoted per day" IncludedInRate="true" TaxInclusive="false">
+                    <ns:Calculation UnitCharge="0.00" UnitName="Day"/>
+                  </ns:Charge>
+                </ns:PricedCoverage>
+              </ns:PricedCoverages>
+            </ns:VehAvailInfo>
+          </ns:VehAvail>
+        </ns:VehAvails>
+        <ns:Info>
+          <ns:LocationDetails AtAirport="true" Code="BNE" CodeContext="Rental Location" ExtendedLocationCode="BNET01" Name="BRISBANE APO">
+            <ns:Address>
+              <ns:StreetNmbr>BRISBANE AIRPORT TERMINAL</ns:StreetNmbr>
+              <ns:AddressLine>EAGLE FARM</ns:AddressLine>
+              <ns:CityName>BRISBANE QLD</ns:CityName>
+              <ns:PostalCode>4007</ns:PostalCode>
+              <ns:StateProv StateCode="QL"/>
+              <ns:CountryName Code="AU"/>
+            </ns:Address>
+            <ns:Telephone PhoneNumber="07 3000 1030"/>
+          </ns:LocationDetails>
+        </ns:Info>
+      </ns:VehVendorAvail>
+    </ns:VehVendorAvails>
+  </ns:VehAvailRSCore>
+</xml-fragment>
